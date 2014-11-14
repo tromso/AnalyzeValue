@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnalyzeValue</string>
+    <string name="title_section1">Stocks Valuation</string>
+    <string name="title_section2">Asset Based Valuation</string>
+    <string name="title_section3">Discount Factor - WACC -CAPM</string>
+    <string name="title_section4">Discounted Cash Flows DCF</string>
+    <string name="title_section5">Residual Earnings Model</string>
+    <string name="title_section6">Relative Valuation and Multiples</string>
+    <string name="title_section7">Private Business Valuation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
