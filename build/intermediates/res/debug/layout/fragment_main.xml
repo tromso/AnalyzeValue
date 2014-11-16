@@ -4,35 +4,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tromto.analyzevalue.MainActivity$PlaceholderFragment" >
+    tools:context="com.tromto.analyzevalue.MainActivity$PlaceholderFragment">
+   <!-- android:background="@drawable/background1"> -->
 
-    <TableLayout
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:touchscreenBlocksFocus="false">
             <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Year" 
-        android:layout_weight="1"/>
+        android:text="Year"
+                android:layout_weight="1.5"
+                android:textSize="11pt" />
     
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Assets" 
-        android:layout_weight="1"/>
+        android:text="Assets"
+        android:layout_weight="1"
+        android:textSize="12pt"/>
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Profits"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:textSize="12pt"/>
     
         </TableRow>
 
@@ -45,14 +63,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2013"
-        android:layout_weight="1" />
+        android:layout_weight="1.5"
+        android:textSize="10pt"/>
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:layout_weight="1" >
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_design">
 
         <requestFocus />
     </EditText>
@@ -62,7 +82,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_design"/>
 
         </TableRow>
 
@@ -75,21 +96,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2014"
-        android:layout_weight="1" />
+        android:layout_weight="1.5"
+        android:textSize="10pt"/>
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_design"/>
     <EditText
         android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal" 
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_design"/>
     
         </TableRow>
 
@@ -102,21 +126,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2015"
-        android:layout_weight="1"/>
+        android:layout_weight="1.5"
+        android:textSize="10pt"/>
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_design"/>
     <EditText
         android:id="@+id/editText6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal" 
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="@drawable/edit_text_design"/>
         </TableRow>
         <TableRow
             android:id="@+id/tableRow5"
@@ -127,7 +154,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2016"
-        android:layout_weight="1"/>
+        android:layout_weight="1.5"
+        android:textSize="10pt"/>
     <EditText
         android:id="@+id/editText7"
         android:layout_width="match_parent"
@@ -152,7 +180,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2017"
-        android:layout_weight="1"/>
+        android:layout_weight="1.5"
+        android:textSize="10pt"/>
     <EditText
         android:id="@+id/editText9"
         android:layout_width="match_parent"
@@ -171,19 +200,20 @@
         <TableRow
             android:id="@+id/tableRow7"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_weight="1"/>
+        android:layout_weight="1.5"/>
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Growth rate assets 2014-2017"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
@@ -200,7 +230,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:layout_weight="1"/>
+        android:layout_weight="1.5"/>
     <EditText
         android:id="@+id/editText11"
         android:layout_width="match_parent"
@@ -219,13 +249,14 @@
         <TableRow
             android:id="@+id/tableRow9"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp">
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Discount factor"
-        android:layout_weight="1"/>
+        android:layout_weight="1.5"/>
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
@@ -255,7 +286,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:layout_weight="1" />
+        android:layout_weight="1.5" />
     <EditText
         android:id="@+id/editText14"
         android:layout_width="match_parent"
@@ -281,9 +312,16 @@
     </TableLayout>
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:text="Calculate value"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate value" />
+        android:background="@drawable/button_custom"
+        android:textColor="@drawable/button_text_color"
+        android:layout_margin="10dip"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+</LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
 <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/layout/fragment_main.xml -->
