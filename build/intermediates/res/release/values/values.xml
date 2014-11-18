@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="black">#000</color>
+    <color name="blue">#00aedb</color>
+    <color name="dirty">#DCE7E8</color>
+    <color name="green">#db9b00</color>
+    <color name="red">#db0041</color>
+    <color name="white">#F0F2E4</color>
+    <color name="white2">#FFFFFF</color>
+    <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">AnalyzeValue</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_section1">Stocks Valuation</string>
+    <string name="title_section2">Asset Based Valuation</string>
+    <string name="title_section3">Discount Factor - WACC -CAPM</string>
+    <string name="title_section4">Discounted Cash Flows DCF</string>
+    <string name="title_section5">Residual Earnings Model</string>
+    <string name="title_section6">Relative Valuation and Multiples</string>
+    <string name="title_section7">Private Business Valuation</string>
+    <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

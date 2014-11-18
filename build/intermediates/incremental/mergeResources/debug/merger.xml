@@ -24,13 +24,13 @@
                 </string>
                 <string name="navigation_drawer_close" >Close navigation drawer
                 </string>
-                <string name="title_section5" >Residual Earnings Model
+                <string name="title_section5" >Relative Valuation and Multiples
                 </string>
                 <string name="title_section4" >Discounted Cash Flows DCF
                 </string>
-                <string name="title_section7" >Private Business Valuation
+                <string name="title_section7" >How to find the discount factor?
                 </string>
-                <string name="title_section6" >Relative Valuation and Multiples
+                <string name="title_section6" >Residual Earnings Model
                 </string>
                 <string name="title_section1" >Stocks Valuation
                 </string>
@@ -50,6 +50,14 @@
                     parent="AppBaseTheme" >
 
                     <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="CustomActionBarTheme"
+                    parent="@android:style/Theme.Holo" >
+                    <item name="android:windowActionBarOverlay">
+true
+                    </item>
                 </style>
 
                 <style

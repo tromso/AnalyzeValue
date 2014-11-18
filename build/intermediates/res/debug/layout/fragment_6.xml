@@ -2,5 +2,270 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="CAPM"
+                        android:id="@+id/textView20" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="WACC"
+                        android:id="@+id/textView21" />
+
+                    </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Risk free interest rate"
+                        android:id="@+id/textView22"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Total Value Equity"
+                        android:id="@+id/textView23"
+                        android:layout_weight="1" />
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText1"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText2"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1" />
+
+
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Beta"
+                        android:id="@+id/textView24"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Total Value Debt"
+                        android:id="@+id/textView25"
+                        android:layout_weight="1" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText3"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText4"
+                        android:layout_weight="1" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Market return rate"
+                        android:id="@+id/textView26"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Interest Rate for Debt"
+                        android:id="@+id/textView27"
+                        android:layout_weight="1" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText5"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText6"
+                        android:layout_weight="1" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/textView28"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Discount factor for Equity"
+                        android:id="@+id/textView29"
+                        android:layout_weight="1" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText7"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:ems="10"
+                        android:id="@+id/editText8"
+                        android:layout_weight="1" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+                    <Button
+                        android:id="@+id/button1"
+                        android:text="Calculate CAPM"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_custom"
+                        android:textColor="@drawable/button_text_color"
+                        android:layout_margin="10dip"
+                        android:textSize="40sp"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/button2"
+                        android:text="Calculate WACC"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_custom"
+                        android:textColor="@drawable/button_text_color"
+                        android:layout_margin="10dip"
+                        android:textSize="40sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                </TableLayout>
+
+
+
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The discount factor is the trade off we have between keeping the money in the bank or investing in the business. In order for the investment to make sense we would need to get a return that compensates us for not getting the interest rate on the money we&apos;d get from the bank but also for taking on a bigger risk of losing the money. So the discount factor is composed of two big factors the safe interest rate the riskiness of the project. The riskier the business the bigger the discount factor. Typically you&apos;d want to set the discount factor somewhere between 5 and 15 percent. A firm that has strongly fluctuating profits will have a higher risk."
+        android:id="@+id/textView30"
+        android:layout_gravity="center_horizontal"
+        android:padding="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Unfortunatelly there is no clear way to calculate the cost of capital so setting the discount factor will be based on intuition and experience. However if you have already put a value on the cost of equity capital determining the cost of finance the whole company is easy using the weighted average cost of capital (WACC) formula. WACC = (E/V) * Re + (D/V) * Rd where E is the total value of equity, V is the total value of the firm, D is the total value of debt the company has, Re is the cost of equity capital (we call it discount factor for equity), and Rd is the interest cost of debt.  "
+        android:id="@+id/textView31"
+        android:layout_gravity="center_horizontal"
+        android:padding="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="In corporate finance books, the discount factor for equity is obtained with the Capital Asset Pricing Model CAPM. The formula being: Ra = Rf + b(Rm - Rf) where Ra is the cost of equity capital or the return on equity. Since the CAPM assumes the market is efficient and there are no residual earnings, Ra is the discount factor for equity. Rf is the safe interest rate basically the interest rate you&apos;d get if you keep your money in the bank or in some riskless bonds. b is beta which measures how volatile the company is compared with the overall market and Rm is the market return. The beta though is not a very reliable measure for the riskiness of the company. A company can have profits that are perfectly correlated with the market for five years and still be risky and fail in the sixth year. Plus the CAPM assumption that the markets are efficient and no company earns excess returns is very unrealistic. If the market was perfect at valuing companies we wouldn&apos;t bother learning finance in the first place. And if everybody takes the market prices as given then who sets the original valuation. You can calculate the WACC below with your own parameters."
+        android:id="@+id/textView32"
+        android:layout_gravity="center_horizontal"
+        android:padding="30dp" />
+</LinearLayout>
+    </ScrollView>
 </LinearLayout><!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/layout/fragment_6.xml -->

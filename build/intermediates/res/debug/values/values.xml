@@ -29,9 +29,9 @@
     <string name="title_section2">Asset Based Valuation</string>
     <string name="title_section3">Discount Factor - WACC -CAPM</string>
     <string name="title_section4">Discounted Cash Flows DCF</string>
-    <string name="title_section5">Residual Earnings Model</string>
-    <string name="title_section6">Relative Valuation and Multiples</string>
-    <string name="title_section7">Private Business Valuation</string>
+    <string name="title_section5">Relative Valuation and Multiples</string>
+    <string name="title_section6">Residual Earnings Model</string>
+    <string name="title_section7">How to find the discount factor?</string>
     <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/styles.xml -->
     <eat-comment />
 
@@ -45,6 +45,10 @@
 
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
     </style>
 
 </resources>

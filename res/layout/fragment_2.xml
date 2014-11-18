@@ -3,4 +3,11 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="One method is valuing the business by the sum of its parts - asset based valuation. However most business aren&apos;t just the sum of their parts but much more. Just think of the special relationships a firm has with its customers, with its suppliers, its know-how, the brand name, the research and development it has in progress. All these intangibles have value but cannot be easily quantified or sold. There is no clear, easy to be observed market value for them."
+        android:id="@+id/textView10"
+        android:padding="30dp" />
 </LinearLayout>
