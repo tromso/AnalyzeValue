@@ -35,32 +35,32 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f09002b;
-        public static final int action_example=0x7f090043;
-        public static final int action_settings=0x7f090042;
+        public static final int action_example=0x7f090044;
+        public static final int action_settings=0x7f090043;
         public static final int button1=0x7f090026;
         public static final int button2=0x7f090027;
         public static final int container=0x7f090001;
         public static final int drawer_layout=0x7f090000;
         public static final int editText1=0x7f090011;
-        public static final int editText10=0x7f090035;
-        public static final int editText11=0x7f090037;
-        public static final int editText12=0x7f090038;
-        public static final int editText13=0x7f09003b;
-        public static final int editText14=0x7f09003c;
-        public static final int editText15=0x7f090040;
-        public static final int editText16=0x7f090041;
+        public static final int editText10=0x7f090036;
+        public static final int editText11=0x7f090038;
+        public static final int editText12=0x7f090039;
+        public static final int editText13=0x7f09003c;
+        public static final int editText14=0x7f09003d;
+        public static final int editText15=0x7f090041;
+        public static final int editText16=0x7f090042;
         public static final int editText2=0x7f090012;
         public static final int editText3=0x7f090017;
         public static final int editText4=0x7f090018;
         public static final int editText5=0x7f09001d;
         public static final int editText6=0x7f09001e;
-        public static final int editText7=0x7f090023;
-        public static final int editText8=0x7f090024;
-        public static final int editText9=0x7f090034;
+        public static final int editText7=0x7f090024;
+        public static final int editText8=0x7f090033;
+        public static final int editText9=0x7f090035;
         public static final int navigation_drawer=0x7f090002;
         public static final int tableRow1=0x7f09000c;
         public static final int tableRow10=0x7f090025;
-        public static final int tableRow12=0x7f09003f;
+        public static final int tableRow12=0x7f090040;
         public static final int tableRow2=0x7f09000d;
         public static final int tableRow3=0x7f090010;
         public static final int tableRow4=0x7f090013;
@@ -74,10 +74,10 @@ public final class R {
         public static final int textView10=0x7f090003;
         public static final int textView11=0x7f090005;
         public static final int textView12=0x7f090006;
-        public static final int textView13=0x7f090039;
-        public static final int textView14=0x7f09003a;
-        public static final int textView15=0x7f09003d;
-        public static final int textView16=0x7f09003e;
+        public static final int textView13=0x7f09003a;
+        public static final int textView14=0x7f09003b;
+        public static final int textView15=0x7f09003e;
+        public static final int textView16=0x7f09003f;
         public static final int textView17=0x7f090007;
         public static final int textView18=0x7f090008;
         public static final int textView19=0x7f090009;
@@ -100,8 +100,9 @@ public final class R {
         public static final int textView5=0x7f090030;
         public static final int textView6=0x7f090031;
         public static final int textView7=0x7f090032;
-        public static final int textView8=0x7f090033;
-        public static final int textView9=0x7f090036;
+        public static final int textView8=0x7f090034;
+        public static final int textView9=0x7f090037;
+        public static final int textView90=0x7f090023;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

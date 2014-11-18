@@ -90,15 +90,15 @@ public class MyFragment1 extends Fragment {
 					 a3 = new BigDecimal(t5.getText().toString());
 					 a4 = new BigDecimal(t7.getText().toString());
 					 a5 = new BigDecimal(t9.getText().toString());
-					 
-					 
-					 
+
+
+
 					 p1 = new BigDecimal(t2.getText().toString());
 					 p2 = new BigDecimal(t4.getText().toString());
 					 p3 = new BigDecimal(t6.getText().toString());
 					 p4 = new BigDecimal(t8.getText().toString());
 					 p5 = new BigDecimal(t10.getText().toString());
-					 
+
 					 ga = new BigDecimal(t11.getText().toString());
 					 gp = new BigDecimal(t12.getText().toString());
 					 ro = new BigDecimal(t13.getText().toString());
