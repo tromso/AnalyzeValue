@@ -28,13 +28,13 @@
                 </string>
                 <string name="title_section4" >Discounted Cash Flows DCF
                 </string>
-                <string name="title_section7" >How to find the discount factor?
+                <string name="title_section7" >CAPM, WACC and how to find the discount factor?
                 </string>
                 <string name="title_section6" >Residual Earnings Model
                 </string>
                 <string name="title_section1" >Stocks Valuation
                 </string>
-                <string name="title_section3" >Discount Factor - WACC -CAPM
+                <string name="title_section3" >How to value my private business
                 </string>
                 <string name="title_section2" >Asset Based Valuation
                 </string>
@@ -213,11 +213,6 @@ true
                 name="ic_drawer"
                 path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable-mdpi/ic_drawer.png"
                 qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="background1"
-                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable/background1.jpg"
-                qualifiers=""
                 type="drawable" />
             <file
                 name="button_text_color"

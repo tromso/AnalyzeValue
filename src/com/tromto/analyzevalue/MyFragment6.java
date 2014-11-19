@@ -19,12 +19,7 @@ public class MyFragment6 extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
-        
-      
-    			Toast t = Toast.makeText(getActivity(), "6", Toast.LENGTH_LONG);
-    			    t.show();
-    		
-        
+
     }
     @Override
     public View onCreateView(
@@ -58,18 +53,13 @@ public class MyFragment6 extends Fragment {
             public void onClick(View v) {
 
                 a1 = new BigDecimal(t1.getText().toString());
-                a2 = new BigDecimal(t2.getText().toString());
                 a3 = new BigDecimal(t3.getText().toString());
-                a4 = new BigDecimal(t4.getText().toString());
                 a5 = new BigDecimal(t5.getText().toString());
-                a6 = new BigDecimal(t6.getText().toString());
-                a7 = new BigDecimal(t7.getText().toString());
+
+
 
                 BigDecimal CAPM = a1.add(a3.multiply(a5.subtract(a1)));
-                BigDecimal b = a2.add(a4);
-                BigDecimal c = a7.multiply(a2.divide(b));
-                BigDecimal d = a6.multiply(a4.divide(b));
-                BigDecimal wacc = c.add(d);
+
                 Toast t = Toast.makeText(getActivity(), "CAPM is: "+ CAPM, Toast.LENGTH_LONG);
                 t.show();
 
@@ -82,8 +72,9 @@ public class MyFragment6 extends Fragment {
             @Override
             public void onClick(View v) {
 
+
+                a2 = new BigDecimal(t2.getText().toString());
                 a4 = new BigDecimal(t4.getText().toString());
-                a5 = new BigDecimal(t5.getText().toString());
                 a6 = new BigDecimal(t6.getText().toString());
                 a7 = new BigDecimal(t7.getText().toString());
 

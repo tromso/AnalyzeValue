@@ -315,7 +315,31 @@
         android:layout_margin="10dip"
         android:textSize="40sp"
         android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Companies which are listed at the stock market report their profits, revenue, and assets in the financial statements every 3 months (quarterly). The report at the end of the year being more detailed. From these financial statements we can extract the most important data that is required to calculate the company's value and ultimately the right price for the stock. If the market price is below what we calculate we should buy the stock because over time the price will converge to the true value at which point we sell and make a profit."
+                android:id="@+id/textView34"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Above we look at the numbers for Google as they were reported in their financial statement for 2013. The statement was reformulated to separate operating from financial assets, and operating income from non core income. This makes it easier to compare companies with different degrees of leverage. You can change the parameters to reflect your assumptions about growth. As you can see, the value calculated for a share of goog is 573$ which is below the price Google is currently trading at. Our model predicts the stock is overvalued and we shouldn't buy."
+                android:id="@+id/textView35"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
 </LinearLayout>
     </ScrollView>
+
+
 
 </LinearLayout>

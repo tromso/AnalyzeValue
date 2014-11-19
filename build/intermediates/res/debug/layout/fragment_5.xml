@@ -18,7 +18,9 @@
         android:text="Where do we go from here? The solution that avoids many of the issues mentioned here is the &quot;residual income&quot; model. It starts with the Net Operating Assets(NOA) and it adds to it the Residual Operating Income(ReOI) and a Terminal Value. The Net Operating Assets are the assets the company produces money with. You could also use instead the Book value (BV). The residual operating income is income that is generated in surplus of normal income, i.e. income that is generated in excess of what you would expect from a company in a normal competition setting that doesn&apos;t have much competitive advantage. In math form: ReOI = OI - df x NOA. Where df is the discount factor or the normal return a company in perfect competition would be getting. You could look at the discount factor as the interest rate plus a risk factor. In essence the discount factor is the minimum amount that compensates the business owner for doing business. Say a person invests 100$ in a business and requires 12$ at the end of the period or else he&apos;d be better off keeping his 100$ in the bank. In this case the discount factor is 12/100 = 0.12. So for a business owner df x NOA is his normal return, the return needed for him to want to continue his business. Anything on top of that is just extra."
         android:id="@+id/textView20"
         android:layout_gravity="center_horizontal"
-        android:padding="30dp" />
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,7 +29,9 @@
         android:text="In the residual income model, the income the business earns in excess of the normal return is the only thing that actually increases the valuation of the business. If the business owner would invest an extra 10$ to his existing 100$ business, but the extra 10$ would generate just an extra 1.2$ per year in income, then the worth of his business would increase just by the 10$ invested because the NOA is increasing by 10$. However even though the earnings have increased from 12$ to 13.2$ the new 10$ investment doesn&apos;t add value because the residual earnings of the project are 0. ReOI = OI - df x NOA (13.2 - 0.12 x 110 = 0). The terminal value is calculated by taking the residual earnings in the most recent period and dividing it by the discount factor minus the growth rate. This will give the sum of all future residual earnings discounted to the present assuming a perpetual growth rate g. The advantage of this model is that it bases a lot of weight on things we know and it has less reliance on projections of future earnings. A big part of the valuation comes from the NOA (or book value). Moreover we are not fooled by earnings increases that don&apos;t add value."
         android:id="@+id/textView21"
         android:layout_gravity="center_horizontal"
-        android:padding="30dp" />
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout><!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/layout/fragment_5.xml -->

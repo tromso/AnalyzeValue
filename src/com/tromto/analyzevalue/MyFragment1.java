@@ -36,8 +36,8 @@ public class MyFragment1 extends Fragment {
 	        setHasOptionsMenu(true);
 	        
 	      
-	    			Toast t = Toast.makeText(getActivity(), "Section 1", Toast.LENGTH_LONG);
-	    			    t.show();
+	    			//Toast t = Toast.makeText(getActivity(), "Section 1", Toast.LENGTH_LONG);
+	    			  //  t.show();
 	    		
 	        
 	    }
@@ -148,7 +148,7 @@ public class MyFragment1 extends Fragment {
 					 equity = total.add(nfa);
 					 pershare = equity.divide(shares, 2, RoundingMode.HALF_UP);
 					//int is1 = Integer.parseInt(s1);
-					Toast t = Toast.makeText(getActivity(), pershare.toString()+" equity "+equity.toString()+ " total " +total.toString() + " shares "+shares.toString(), Toast.LENGTH_LONG);
+					Toast t = Toast.makeText(getActivity(),"The calculated price of one Google share is: " + pershare.toString(), Toast.LENGTH_LONG);
 				    t.show();
 					
 				}

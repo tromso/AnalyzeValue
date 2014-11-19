@@ -13,10 +13,7 @@ public class MyFragment3 extends Fragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
         
-      
-    			Toast t = Toast.makeText(getActivity(), "3", Toast.LENGTH_LONG);
-    			    t.show();
-    		
+
         
     }
     @Override

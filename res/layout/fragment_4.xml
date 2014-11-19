@@ -18,7 +18,9 @@
         android:text="One valuation method you really cannot do without is called &quot;multiples&quot; or &quot;relative valuation&quot;. It just computes ratios of important metrics; for example price per earnings which takes the price of the whole business (for stocks this would be either the market capitalization per net income, or share price divided by earnings per share) and divides it by the earnings it received in the last period. Historically companies on the stock marked have had a price per earnings (P/E) average between 15-16. Everything else equal a company with a P/E ratio of 20 is more expensive than a company with a P/E of 15. A higher P/E can be interpreted as either the company is overpriced or it is expected it will grow its earnings with time, meaning the P/E will decrease in the future as E increases."
         android:id="@+id/textView17"
         android:layout_gravity="center_horizontal"
-        android:padding="30dp" />
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,7 +29,9 @@
         android:text="Other useful multiples are: Price per Sales, Price per Book Value, Entreprise Value/Sales, Return on Assets, Return on Equity, Operating Margin, and Net Margin. Let&apos;s look at them one at a time. The Price per Sales is useful especially for companies that are not yet profitable - companies that have negative earnings. The Price per Book Value gives the price of the company divided by the price with which the firm&apos;s assets appear in its balance sheet. Usually the Book Value reflects the assets purchase price minus the depreciation and amortization already incurred. On the balance sheet the book value is the total value of its assets less its liabilities. The Enterprise Value gives the sum of the shareholder&apos;s equity plus the company&apos;s debt minus the cash it has. The advantage of using the Enterprise Value when doing valuation is that it neutralizes the leverage effect. A highly leveraged company borrows money to purchase its assets and if it turns a profit that profit is multiplied by the leverage effect. However a leveraged company is also more risky because the losses can be boosted into even bigger losses by the leverage effect up to the point it becomes insolvent (equity &lt; debt). So a company with high leverage can have bigger earnings but also be riskier, therefore its higher earnings shouldn&apos;t be compared one to one with unleveraged companies&apos; earnings. This is why we use the entreprise value, to level the playing field. Lastly Gross Profit Margin is (Sales - Cost of Goods Sold)/Sales, Profit margin is Net Income/Sales, Return on Assets is Net Income/Total Assets, and Return on Equity is Net Income/Shareholders&apos; Equity."
         android:id="@+id/textView18"
         android:layout_gravity="center_horizontal"
-        android:padding="30dp" />
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,7 +40,10 @@
         android:text="In corporate finance books, the discount factor for equity is obtained with the Capital Asset Pricing Model CAPM. The formula being: Ra = Rf + b(Rm - Rf) where Ra is the cost of equity capital or the return on equity. Since the CAPM assumes the market is efficient and there are no residual earnings, Ra is the discount factor for equity. Rf is the safe interest rate basically the interest rate you&apos;d get if you keep your money in the bank or in some riskless bonds. b is beta which measures how volatile the company is compared with the overall market and Rm is the market return. The beta though is not a very reliable measure for the riskiness of the company. A company can have profits that are perfectly correlated with the market for five years and still be risky and fail in the sixth year. Plus the CAPM assumption that the markets are efficient and no company earns excess returns is very unrealistic. If the market was perfect at valuing companies we wouldn&apos;t bother learning finance in the first place. And if everybody takes the market prices as given then who sets the original valuation. You can calculate the WACC below with your own parameters."
         android:id="@+id/textView19"
         android:layout_gravity="center_horizontal"
-        android:padding="30dp" />
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp" />
 </LinearLayout>
     </ScrollView>
 </LinearLayout>
