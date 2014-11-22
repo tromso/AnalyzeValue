@@ -41,7 +41,8 @@
         android:layout_gravity="center_horizontal"
         android:paddingLeft="30dp"
         android:paddingTop="10dp"
-        android:paddingRight="30dp" />
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout><!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/layout/fragment_3.xml -->

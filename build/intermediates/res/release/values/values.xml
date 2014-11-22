@@ -20,18 +20,18 @@
     <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/strings.xml -->
     <eat-comment />
 
-    <string name="action_example">Example action</string>
+    <string name="action_example">Website</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">AnalyzeValue</string>
+    <string name="app_name"></string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="title_section1">Stocks Valuation</string>
     <string name="title_section2">Asset Based Valuation</string>
-    <string name="title_section3">Discount Factor - WACC -CAPM</string>
+    <string name="title_section3">How to value my private business</string>
     <string name="title_section4">Discounted Cash Flows DCF</string>
-    <string name="title_section5">Residual Earnings Model</string>
-    <string name="title_section6">Relative Valuation and Multiples</string>
-    <string name="title_section7">Private Business Valuation</string>
+    <string name="title_section5">Relative Valuation and Multiples</string>
+    <string name="title_section6">Residual Earnings Model</string>
+    <string name="title_section7">CAPM, WACC and how to find the discount factor?</string>
     <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/values/styles.xml -->
     <eat-comment />
 

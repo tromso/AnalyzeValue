@@ -2,17 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Another method, and probably the most well known, is the &quot;discounted cash flow - DCF&quot; model. The value of a business is the sum of all the money it will obtain in the future discounted to the present value - because we prefer having money now rather than in the future, so the money from the future has a slightly smaller price today. The cash-flows, simplistically can be seen as profits though it is not technically correct; they&apos;re the money that is available at the end of the year. To get the cash flows we take the sales each period and substract the total expenses incurred."
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
+        android:text="Can we get the sales from all the years in the future? How many periods should we get? What happens if for the 5 periods we have the cash flows are abnormally high or low? Or even worse yet, when we only have negative cash flows. Obviously an accurate valuation in these cases would be compromised. To deal with an infinite amount of periods we take a few cash flows we can observe and we project the rest with a terminal value which is based on a cash flow that grows (or declines) with a growth rate we estimate. So the final value stems from two components: the finite-period cash flows we observe (or estimate) and the terminal value. Think of the terminal value as the value we would put to a constant stream of cash that grows each year by say 3 percent."
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp" />
 
-    <TableLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"></TableLayout>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Can we get the sales from all the years in the future? How many periods should we get? What happens if for the 5 periods we have the cash flows are abnormally high or low? Or even worse yet, when we only have negative cash flows. Obviously an accurate valuation in these cases would be compromised. To deal with an infinite amount of periods we take a few cash flows we can observe and we project the rest with a terminal value which is based on a cash flow that grows (or declines) with a growth rate we estimate. So the final value stems from two components: the finite-period cash flows we observe (or estimate) and the terminal value. Think of the terminal value as the value we would put to a constant stream of cash that grows each year by say 3 percent."
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout><!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/layout/fragment_3.xml -->

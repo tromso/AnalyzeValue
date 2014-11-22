@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tromto.analyzevalue.MainActivity$PlaceholderFragment"
-    android:background="@drawable/background1">
+    tools:context="com.tromto.analyzevalue.MainActivity$PlaceholderFragment">
 
 
     <ScrollView
@@ -43,14 +42,15 @@
         android:layout_height="wrap_content"
         android:text="Assets"
         android:layout_weight="1"
-        android:textSize="12pt"/>
+        android:textSize="11pt"/>
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Profits"
         android:layout_weight="1"
-        android:textSize="12pt"/>
+        android:textSize="11pt"
+        android:textIsSelectable="true" />
     
         </TableRow>
 
@@ -192,7 +192,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal" 
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow7"
@@ -203,48 +203,27 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:layout_weight="1.5"/>
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Growth rate assets 2014-2017"
-        android:layout_weight="1" />
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Growth rate profits 2014-2017"
-        android:layout_weight="1"/>
+        android:text="Growth rate 2014-2017"
+        android:layout_weight="1.5"
+        android:textSize="8pt" />
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:layout_weight="1" />
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"/>
         </TableRow>
+
         <TableRow
             android:id="@+id/tableRow8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:layout_weight="1.5"/>
-    <EditText
-        android:id="@+id/editText11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:layout_weight="1" />
-    <EditText
-        android:id="@+id/editText12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal" 
-        android:layout_weight="1"/>
-        </TableRow>
-        <TableRow
-            android:id="@+id/tableRow9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="30dp">
@@ -253,44 +232,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Discount factor"
-        android:layout_weight="1.5"/>
+        android:layout_weight="1"
+        android:textSize="8pt"
+        android:textIsSelectable="true" />
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Growth rate terminal value"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textSize="8pt" />
+        </TableRow>
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:layout_weight="1" />
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:layout_weight="1" />
+        </TableRow>
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Net financial assets"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textSize="8pt"
+        android:textIsSelectable="true" />
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Shares outstanding"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textSize="8pt"
+        android:textIsSelectable="true" />
         </TableRow>
         <TableRow
-            android:id="@+id/tableRow10"
+            android:id="@+id/tableRow12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-    <EditText
-        android:id="@+id/editText13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:layout_weight="1.5" />
-    <EditText
-        android:id="@+id/editText14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:layout_weight="1" />
+
     <EditText
         android:id="@+id/editText15"
         android:layout_width="match_parent"
@@ -317,8 +315,32 @@
         android:layout_margin="10dip"
         android:textSize="40sp"
         android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Companies which are listed at the stock market report their profits, revenue, and assets in the financial statements every 3 months (quarterly). The report at the end of the year being more detailed. From these financial statements we can extract the most important data that is required to calculate the company's value and ultimately the right price for the stock. If the market price is below what we calculate we should buy the stock because over time the price will converge to the true value at which point we sell and make a profit."
+                android:id="@+id/textView34"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Above we look at the numbers for Google as they were reported in their financial statement for 2013. The statement was reformulated to separate operating from financial assets, and operating income from non core income. This makes it easier to compare companies with different degrees of leverage. You can change the parameters to reflect your assumptions about growth. As you can see, the value calculated for a share of goog is 573$ which is below the price Google is currently trading at. Our model predicts the stock is overvalued and we shouldn't buy."
+                android:id="@+id/textView35"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
 </LinearLayout>
     </ScrollView>
+
+
 
 </LinearLayout>
 <!-- From: file:/home/k/Dropbox/AnalyzeValue%2007.11.14/res/layout/fragment_main.xml -->

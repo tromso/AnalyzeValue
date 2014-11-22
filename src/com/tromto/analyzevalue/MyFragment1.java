@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 
@@ -29,7 +30,9 @@ public class MyFragment1 extends Fragment {
 	String s1;
 	BigDecimal a1,a2, a3, a4, a5, p1, p2, p3, p4, p5, ga, gp, ro, gt, nfa, shares, reoi1, reoi2, reoi3, 
 	reoi4, reoi5, dis2, dis3, dis4, dis5, discountedreoi, terminal, total, equity, pershare;
-	 
+
+    private static final String ARG_SECTION_NUMBER = "section_number";
+
 		@Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
@@ -201,14 +204,29 @@ public class MyFragment1 extends Fragment {
 		
 
 }
+
+public static MyFragment1 newInstance(int sectionNumber) {
+        MyFragment1 fragment = new MyFragment1();
+        Bundle args = new Bundle();
+        args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+        fragment.setArguments(args);
+        return fragment;
+    }
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        ((MainActivity) activity).onSectionAttached(
+                getArguments().getInt(ARG_SECTION_NUMBER));
+    }
 			
 			*/
 			return v;
-			
-	
+
+
 		    
 					
 			
 		}
-		
+
+
 		}

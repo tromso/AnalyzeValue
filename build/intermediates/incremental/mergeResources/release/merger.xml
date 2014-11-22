@@ -34,25 +34,24 @@
             <file
                 path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/values/strings.xml"
                 qualifiers="" >
-                <string name="action_example" >Example action
+                <string name="action_example" >Website
                 </string>
                 <string name="action_settings" >Settings
                 </string>
-                <string name="app_name" >AnalyzeValue
-                </string>
+                <string name="app_name" ></string>
                 <string name="navigation_drawer_close" >Close navigation drawer
                 </string>
-                <string name="title_section5" >Residual Earnings Model
+                <string name="title_section5" >Relative Valuation and Multiples
                 </string>
                 <string name="title_section4" >Discounted Cash Flows DCF
                 </string>
-                <string name="title_section7" >Private Business Valuation
+                <string name="title_section7" >CAPM, WACC and how to find the discount factor?
                 </string>
-                <string name="title_section6" >Relative Valuation and Multiples
+                <string name="title_section6" >Residual Earnings Model
                 </string>
                 <string name="title_section1" >Stocks Valuation
                 </string>
-                <string name="title_section3" >Discount Factor - WACC -CAPM
+                <string name="title_section3" >How to value my private business
                 </string>
                 <string name="title_section2" >Asset Based Valuation
                 </string>
@@ -177,13 +176,18 @@ true
                 qualifiers=""
                 type="drawable" />
             <file
-                name="edit_text_design"
-                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable/edit_text_design.xml"
+                name="linds"
+                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable/linds.png"
                 qualifiers=""
                 type="drawable" />
             <file
-                name="background1"
-                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable/background1.jpg"
+                name="anal"
+                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable/anal.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edit_text_design"
+                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable/edit_text_design.xml"
                 qualifiers=""
                 type="drawable" />
             <file
@@ -228,8 +232,18 @@ true
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
+                name="linds"
+                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable-hdpi/linds.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="anal"
+                path="/home/k/Dropbox/AnalyzeValue 07.11.14/res/drawable-hdpi/anal.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
